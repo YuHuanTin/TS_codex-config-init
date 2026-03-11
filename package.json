@@ -1,0 +1,16 @@
+{
+  "name": "codex-config-init",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "25.4.0"
+  }
+}
