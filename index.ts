@@ -11,8 +11,10 @@ if (process.argv.length !== 4) {
 console.log(`url = ${process.argv[2]}`)
 console.log(`key = ${process.argv[3]}`)
 
-let key = process.argv[2]
-let url = process.argv[3]
+
+let url = process.argv[2]
+let key = process.argv[3]
+
 
 ///
 let base = os.homedir();
