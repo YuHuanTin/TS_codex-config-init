@@ -25,13 +25,15 @@ let configBase =
 model = "gpt-5.4"
 model_reasoning_effort = "high"
 disable_response_storage = true
-sandbox_mode = "danger-full-access"
 
 [model_providers.codex]
 name = "codex"
 base_url = "$BaseUrl"
 wire_api = "responses"
 env_key = "CODEX_API_KEY"
+
+[windows]
+sandbox = "unelevated"
 
 [features]
 rmcp_client = true
